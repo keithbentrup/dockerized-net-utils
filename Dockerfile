@@ -4,7 +4,7 @@ MAINTAINER Keith Bentrup <keithbentrup@gmail.com>
 RUN apt-get update && \
   apt-get install -y \
     iputils-ping \
-    tracerout \
+    traceroute \
     bridge-utils && \
   apt-get clean && \
   rm -rf \
